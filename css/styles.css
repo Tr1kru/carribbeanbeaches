@@ -53,3 +53,30 @@ table {
 nav a:hover {
 
 }
+
+.fnav {
+    padding: 5px 0;
+	width: 100%;
+	background-color: skyblue;
+	min-height: 50px;
+    color: black;
+}
+
+.fnav ul {
+	display: block;
+	text-align: center;
+}
+
+.fnav ul li {
+	display: inline-block;
+	list-style: none;
+	width: 15%;
+	background-color: white;
+	margin-top: .8%;
+}
+
+.fnav a {
+	color: lightskyblue;
+	text-decoration: none;
+	font-size: 1.5em;
+}
