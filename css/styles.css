@@ -15,6 +15,11 @@ header {
 font-weight: bold;
 }
 
+header img {
+	min-height: 200px;
+	max-width: 400px;
+}
+
 .hnav {
     padding: 5px 0;
 	width: 100%;
@@ -51,7 +56,11 @@ table {
 }
 
 nav a:hover {
+	color: skyblue;
+}
 
+main p {
+	font-size: 1em;
 }
 
 .fnav {
