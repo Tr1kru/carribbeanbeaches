@@ -1,5 +1,10 @@
-body {
+title {
+    text-align: center;
+}
 
+body {
+    margin: 0;
+	padding: 0;
 }
 
 head {
@@ -13,7 +18,7 @@ font-weight: bold;
 .hnav {
     padding: 5px 0;
 	width: 100%;
-	background-color: white;
+	background-color: skyblue;
 	min-height: 50px;
     color: black;
 }
