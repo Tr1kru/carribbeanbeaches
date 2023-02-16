@@ -10,6 +10,33 @@ header {
 font-weight: bold;
 }
 
+.hnav {
+    padding: 5px 0;
+	width: 100%;
+	background-color: white;
+	min-height: 50px;
+    color: black;
+}
+
+.hnav ul {
+	display: block;
+	text-align: center;
+}
+
+.hnav ul li {
+	display: inline-block;
+	list-style: none;
+	width: 15%;
+	background-color: white;
+	margin-top: .8%;
+}
+
+.hnav a {
+	color: lightskyblue;
+	text-decoration: none;
+	font-size: 1.5em;
+}
+
 blockquote {
 
 }
