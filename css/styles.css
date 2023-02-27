@@ -37,6 +37,8 @@ header img {
 }
 
 .hnav ul li {
+	display: block;
+	text-align: center;
 	list-style: none;
 	width: 15%;
 	background-color: white;
@@ -74,11 +76,12 @@ main p {
 }
 
 .fnav ul {
-	display: block;
-	text-align: center;
+	margin: 0;
+	padding: 10px 0 10px 0;
 }
 
 .fnav ul li {
+	text-align: center;
 	display: inline-block;
 	list-style: none;
 	width: 15%;
