@@ -32,10 +32,11 @@ header img {
 .hnav ul {
 	display: block;
 	text-align: center;
+	margin: 0;
+	padding: 10px 0 10px 0;
 }
 
 .hnav ul li {
-	display: inline-block;
 	list-style: none;
 	width: 15%;
 	background-color: white;
