@@ -21,7 +21,8 @@ header img {
 }
 
 .hnav {
-    padding: 5px 0;
+    padding: 0;
+	margin: 0;
 	width: 100%;
 	background-color: skyblue;
 	min-height: 50px;
