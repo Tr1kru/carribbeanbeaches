@@ -1,3 +1,9 @@
+html, body, header, h1, h2, h3, blockquote, table, hnav, fnav, main, footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 title {
     text-align: center;
 }
@@ -5,6 +11,7 @@ title {
 body {
     margin: 0;
 	padding: 0;
+	background-color: whitesmoke;
 }
 
 head {
@@ -15,21 +22,57 @@ header {
 font-weight: bold;
 }
 
-header img {
-	min-height: 200px;
-	max-width: 400px;
+h1 {
+	margin-right: 15%;
+	font-weight: bold;
+    font-size: 4em;
+	color: skyblue;
+}
+
+h2 {
+	font-weight: bold;
+}
+
+h3 {
+	margin-right: 15%;
+	font-weight: bold;
+    font-size: 6em;
+	color: white;
+	text-align: center;
+}
+
+header  {
+	min-height: 400px;
+	background-image: url("../images/home_Beach.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 20% 23%;
+}
+
+main {
+	color: skyblue;
+	font-weight: bold;
+}
+
+#container {
+	padding: 5% 0;
+    margin: 10px auto;
+    width: 80%;
+    min-height: 500px;
+    font-size: 1.8em;
 }
 
 .hnav {
-	display: block;
+	display: inline-block;
 	text-align: center;
 	list-style: none;
-    padding: 0;
-	margin: 0;
 	width: 100%;
+	padding: 10px 0;
+	margin: 0;
 	background-color: skyblue;
 	min-height: 50px;
     color: black;
+	border: 0;
 }
 
 .hnav ul {
@@ -41,6 +84,12 @@ header img {
 	width: 15%;
 	background-color: white;
 	margin-top: .8%;
+	color: lightskyblue;
+    display: inline-block;
+    list-style: none;
+	text-align: center;
+	margin-right: 15px;
+	padding: 10px 0 10px 0;
 }
 
 .hnav a {
@@ -59,7 +108,8 @@ main p {
 }
 
 .fnav {
-	display: block;
+	text-align: center;
+	display: inline-block;
     padding: 5px 0;
 	width: 100%;
 	background-color: skyblue;
@@ -73,15 +123,25 @@ main p {
 }
 
 .fnav ul li {
-	text-align: center;
-	list-style: none;
 	width: 15%;
 	background-color: white;
 	margin-top: .8%;
+	color: lightskyblue;
+    display: inline-block;
+    list-style: none;
+	text-align: center;
+	margin-right: 15px;
+	padding: 10px 0 10px 0;
 }
 
 .fnav a {
 	color: lightskyblue;
 	text-decoration: none;
 	font-size: 1.5em;
+}
+
+footer p {
+	text-align: center;
+	font-size: .8em;
+	color: skyblue;
 }
